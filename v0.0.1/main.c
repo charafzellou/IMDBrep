@@ -8,12 +8,12 @@ unsigned int writeInFile(void *ptr, unsigned int sizeOfElement, unsigned int nbE
     return(written);
 }
 
-void downloadZipFile(void){
+void downloadJSON(void){
     CURL *curl;
     FILE * zipFile;
     CURLcode res;
-    char *url = "https://api.themoviedb.org/3/movie/popular?api_key=21b9296f3b9bcb3628c55516f08d19a0&language=fr-FR&page=1";
-    char *fileName = "movie_ids_10_19_2017.json.gz";
+    char *url = "http://api.themoviedb.org/3/movie/popular?api_key=21b9296f3b9bcb3628c55516f08d19a0&language=fr-FR&page=1";
+    char *fileName = "movie_ids_10_19_2017.json";
     curl_global_init(CURL_GLOBAL_DEFAULT);
 
     curl = curl_easy_init();
@@ -22,30 +22,6 @@ void downloadZipFile(void){
         curl_easy_setopt(curl, CURLOPT_URL, url);
         curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, writeInFile);
         curl_easy_setopt(curl, CURLOPT_WRITEDATA, zipFile);
-
-#ifdef SKIP_PEER_VERIFICATION
-    /*
-     * If you want to connect to a site who isn't using a certificate that is
-     * signed by one of the certs in the CA bundle you have, you can skip the
-     * verification of the server's certificate. This makes the connection
-     * A LOT LESS SECURE.
-     *
-     * If you have a CA cert for the server stored someplace else than in the
-     * default bundle, then the CURLOPT_CAPATH option might come handy for
-     * you.
-     */
-    curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
-#endif
-
-#ifdef SKIP_HOSTNAME_VERIFICATION
-    /*
-     * If the site you're connecting to uses a different host name that what
-     * they have mentioned in their server certificate's commonName (or
-     * subjectAltName) fields, libcurl will refuse to connect. You can skip
-     * this check, but this will make the connection less secure.
-     */
-    curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
-#endif
 
     /* Perform the request, res will get the return code */
     res = curl_easy_perform(curl);
@@ -71,7 +47,7 @@ int main(int argc, char* argv[])
                    Q (Exit)");
         c = getchar();
         switch(c){
-            case '0': downloadZipFile();
+            case '0': downloadJSON();
                 break;
             case 'q' :
             case 'Q' : flag = 0;
