@@ -4,7 +4,7 @@
 #include "json-c/json.h"
 #include "sort.h"
 
-void sortByTitle(movie* m1; int compt){
+void sortByTitle(Movie* m1; int compt){
     movie* movie;
 
     movie= malloc(sizeof(movie*));
@@ -26,7 +26,7 @@ void sortByTitle(movie* m1; int compt){
 
 
 
-void sortByVoteAverage(movie* m1; int compt){
+void sortByVoteAverage(Movie* m1; int compt){
     movie* movie;
 
     movie= malloc(sizeof(movie*));
@@ -48,7 +48,7 @@ void sortByVoteAverage(movie* m1; int compt){
 
 
 
-void sortById(movie* m1; int compt){
+void sortById(Movie* m1; int compt){
     movie* movie;
 
     movie= malloc(sizeof(movie*));
@@ -150,4 +150,17 @@ void sortByReleaseDate(Movie* m1; int compt){
     free(month2);
     free(day2);
 
+}
+
+Movie* getById(Movie* m1, unsigned int index, int taille){
+
+    int i;
+
+    for(i = 0; i < taille; i++){
+        if(m1[i]->id == index){
+            return m1[i];
+        }
+    }
+    printf("l'Id du film n'existe pas!\n");
+    return NULL;
 }
