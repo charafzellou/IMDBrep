@@ -1,0 +1,291 @@
+# depslib dependency file v1.0
+1494905540 source:c:\damien\etude\esgi\projet annuel\2 année\météo\new\v1.8.5\main.c
+	"readInfo.h"
+	"writeInfo.h"
+	"parseJSON.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1494905538 c:\damien\etude\esgi\projet annuel\2 année\météo\new\v1.8.5\readinfo.h
+	<winsock2.h>
+	<Ws2tcpip.h>
+	<winsock.h>
+	<MYSQL/mysql.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netdb.h>
+	<my_global.h>
+	<mysql.h>
+	<time.h>
+
+1494905536 c:\damien\etude\esgi\projet annuel\2 année\météo\new\v1.8.5\writeinfo.h
+
+1494905540 c:\damien\etude\esgi\projet annuel\2 année\météo\new\v1.8.5\parsejson.h
+	<winsock2.h>
+	<Ws2tcpip.h>
+	<winsock.h>
+	<MYSQL/mysql.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netdb.h>
+	<my_global.h>
+	<mysql.h>
+	<time.h>
+
+1498907824 source:c:\damien\etude\esgi\projet annuel\2 année\météo\new\v1.8.5\parsejson.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"parseJSON.h"
+
+1498907824 source:c:\damien\etude\esgi\projet annuel\2 année\météo\new\v1.8.5\readinfo.c
+	"readInfo.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1498907111 source:c:\damien\etude\esgi\projet annuel\2 année\météo\new\v1.8.5\writeinfo.c
+	"writeInfo.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1501345246 source:c:\xampp\htdocs\projetannuellucile\météo\parsejson.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"parseJSON.h"
+
+1498864461 c:\xampp\htdocs\projetannuellucile\météo\parsejson.h
+	<winsock2.h>
+	<Ws2tcpip.h>
+	<winsock.h>
+	<MYSQL/mysql.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netdb.h>
+	<my_global.h>
+	<mysql.h>
+	<time.h>
+
+1503187128 source:c:\xampp\htdocs\projetannuellucile\météo\main.c
+	"readInfo.h"
+	"writeInfo.h"
+	"parseJSON.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1498864461 c:\xampp\htdocs\projetannuellucile\météo\readinfo.h
+	<winsock2.h>
+	<Ws2tcpip.h>
+	<winsock.h>
+	<MYSQL/mysql.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netdb.h>
+	<my_global.h>
+	<mysql.h>
+	<time.h>
+
+1498864461 c:\xampp\htdocs\projetannuellucile\météo\writeinfo.h
+
+1503187134 source:c:\xampp\htdocs\projetannuellucile\météo\readinfo.c
+	"readInfo.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1503187153 source:c:\xampp\htdocs\projetannuellucile\météo\writeinfo.c
+	"writeInfo.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1503187128 source:c:\users\abdel\documents\projet annuel rattrapage\c\main.c
+	"readInfo.h"
+	"writeInfo.h"
+	"parseJSON.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1498864461 c:\users\abdel\documents\projet annuel rattrapage\c\readinfo.h
+	<winsock2.h>
+	<Ws2tcpip.h>
+	<winsock.h>
+	<MYSQL/mysql.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netdb.h>
+	<my_global.h>
+	<mysql.h>
+	<time.h>
+
+1498864461 c:\users\abdel\documents\projet annuel rattrapage\c\writeinfo.h
+
+1498864461 c:\users\abdel\documents\projet annuel rattrapage\c\parsejson.h
+	<winsock2.h>
+	<Ws2tcpip.h>
+	<winsock.h>
+	<MYSQL/mysql.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netdb.h>
+	<my_global.h>
+	<mysql.h>
+	<time.h>
+
+1501345246 source:c:\users\abdel\documents\projet annuel rattrapage\c\parsejson.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"parseJSON.h"
+
+1503187134 source:c:\users\abdel\documents\projet annuel rattrapage\c\readinfo.c
+	"readInfo.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1503187153 source:c:\users\abdel\documents\projet annuel rattrapage\c\writeinfo.c
+	"writeInfo.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1501345248 source:c:\users\chaze exodus\desktop\studies\esgi2\project xr\c\parsejson.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"parseJSON.h"
+
+1498864462 c:\users\chaze exodus\desktop\studies\esgi2\project xr\c\parsejson.h
+	<winsock2.h>
+	<Ws2tcpip.h>
+	<winsock.h>
+	<MYSQL/mysql.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netdb.h>
+	<my_global.h>
+	<mysql.h>
+	<time.h>
+
+1503187136 source:c:\users\chaze exodus\desktop\studies\esgi2\project xr\c\readinfo.c
+	"readInfo.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1498864462 c:\users\chaze exodus\desktop\studies\esgi2\project xr\c\readinfo.h
+	<winsock2.h>
+	<Ws2tcpip.h>
+	<winsock.h>
+	<MYSQL/mysql.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netdb.h>
+	<my_global.h>
+	<mysql.h>
+	<time.h>
+
+1503187154 source:c:\users\chaze exodus\desktop\studies\esgi2\project xr\c\writeinfo.c
+	"writeInfo.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1498864462 c:\users\chaze exodus\desktop\studies\esgi2\project xr\c\writeinfo.h
+
+1504699738 source:c:\users\chaze exodus\desktop\studies\esgi2\project xr\c\main.c
+	"readInfo.h"
+	"writeInfo.h"
+	"parseJSON.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1504699738 source:c:\users\chaze exodus\desktop\studies\esgi3\piscine_c\_project\main.c
+	"readInfo.h"
+	"writeInfo.h"
+	"parseJSON.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1498864462 c:\users\chaze exodus\desktop\studies\esgi3\piscine_c\_project\readinfo.h
+	<winsock2.h>
+	<Ws2tcpip.h>
+	<winsock.h>
+	<MYSQL/mysql.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netdb.h>
+	<my_global.h>
+	<mysql.h>
+	<time.h>
+
+1498864462 c:\users\chaze exodus\desktop\studies\esgi3\piscine_c\_project\writeinfo.h
+
+1498864462 c:\users\chaze exodus\desktop\studies\esgi3\piscine_c\_project\parsejson.h
+	<winsock2.h>
+	<Ws2tcpip.h>
+	<winsock.h>
+	<MYSQL/mysql.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netdb.h>
+	<my_global.h>
+	<mysql.h>
+	<time.h>
+
+1504711105 source:c:\users\chaze exodus\desktop\studies\esgi3\piscine_c\_project\parsejson.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"parseJSON.h"
+
+1503187136 source:c:\users\chaze exodus\desktop\studies\esgi3\piscine_c\_project\readinfo.c
+	"readInfo.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1503187154 source:c:\users\chaze exodus\desktop\studies\esgi3\piscine_c\_project\writeinfo.c
+	"writeInfo.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
