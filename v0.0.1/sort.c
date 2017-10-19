@@ -1,6 +1,6 @@
 /**
 *
-*Filename : sort.h
+*Filename : sort.C
 *
 *Made by : Dormoy Guillaume
 *
