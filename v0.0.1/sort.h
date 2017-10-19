@@ -1,5 +1,5 @@
 #ifndef FT_H
-# define FT_H
+#define FT_H
 
 void sortByTitle(Movie* m1; int compt);
 
