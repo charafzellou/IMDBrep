@@ -1,9 +1,25 @@
+/**
+*
+*Filename : sort.h
+*
+*Made by : Dormoy Guillaume
+*
+*Description :
+*
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "curl/curl.h"
 #include "json-c/json.h"
 #include "sort.h"
 
+
+/**
+*
+*Trie les films par titre
+*
+*/
 void sortByTitle(Movie* m1; int compt){
     movie* movie;
 
@@ -25,7 +41,11 @@ void sortByTitle(Movie* m1; int compt){
 }
 
 
-
+/**
+*
+*Trie les films par vote
+*
+*/
 void sortByVoteAverage(Movie* m1; int compt){
     movie* movie;
 
@@ -47,7 +67,11 @@ void sortByVoteAverage(Movie* m1; int compt){
 }
 
 
-
+/**
+*
+*Trie les films par Id
+*
+*/
 void sortById(Movie* m1; int compt){
     movie* movie;
 
@@ -71,6 +95,12 @@ void sortById(Movie* m1; int compt){
 
 
 
+/**
+*
+*Découpe la date en trois
+*String séparée
+*
+*/
 void cutDate(char* date, char* year, char* month, char* day){
 
     int i;
@@ -98,7 +128,12 @@ void cutDate(char* date, char* year, char* month, char* day){
 
 }
 
-
+/**
+*
+*Trie les films par
+*date de sortie
+*
+*/
 void sortByReleaseDate(Movie* m1; int compt){
     Movie* movie;
 
@@ -152,6 +187,12 @@ void sortByReleaseDate(Movie* m1; int compt){
 
 }
 
+/**
+*
+*Renvoit un film selon
+*l'Id passé ne paramètre
+*
+*/
 Movie* getById(Movie* m1, unsigned int index, int taille){
 
     int i;
