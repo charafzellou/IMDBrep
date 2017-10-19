@@ -9,10 +9,10 @@ const char* inet_ntop(int af, const void* src, char* dst, int cnt){
     struct sockaddr_in srcaddr;
 
     memset(&srcaddr, 0, sizeof(struct sockaddr_in)); // remplit une zone mémoire avec un octet donnée
-    memcpy(&(srcaddr.sin_addr), src, sizeof(srcaddr.sin_addr)); // copieune zone mémoire renvoie un pointeur
+    memcpy(&(srcaddr.sin_addr), src, sizeof(srcaddr.sin_addr)); // copie une zone mémoire renvoie un pointeur
 
     srcaddr.sin_family = af;
-    if (WSAAddressToString((struct sockaddr*) &srcaddr, sizeof(struct sockaddr_in), 0, dst, (LPDWORD) &cnt) != 0) { // Transforme l'adresse en chaine de cracatère
+    if (WSAAddressToString((struct sockaddr*) &srcaddr, sizeof(struct sockaddr_in), 0, dst, (LPDWORD) &cnt) != 0) { // Transforme l'adresse en chaine de caractère
         DWORD rv = WSAGetLastError();
         printf("WSAAddressToString() : %d\n",rv);
         return NULL;
