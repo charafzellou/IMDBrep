@@ -90,7 +90,7 @@ void cutDate(char* date, char* year, char* month, char* day){
             month[m] == date[i];
             m++;
         }
-        else if(compt == 1){
+        else if(compt == 2){
             day[d] == date[i];
             d++;
         }
