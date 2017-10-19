@@ -1,3 +1,7 @@
+files.tmdb.org/p/exports/movie_ids_10_19_2017.json.gz
+
+_____________________
+
 Clé de l'API (v3 auth)
 
 21b9296f3b9bcb3628c55516f08d19a0
