@@ -1,0 +1,117 @@
+# depslib dependency file v1.0
+1508347128 source:c:\projetc\template\main.c
+	<stdio.h>
+	<stdlib.h>
+	"curl/curl.h"
+	"json-c/json.h"
+
+1508341935 c:\projetc\template\libs\curl\include\curl\curl.h
+	"curlver.h"
+	"curlbuild.h"
+	"curlrules.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"typecheck-gcc.h"
+
+1508341935 c:\projetc\template\libs\curl\include\curl\curlver.h
+
+1508341935 c:\projetc\template\libs\curl\include\curl\curlbuild.h
+	<sys/types.h>
+	<sys/socket.h>
+
+1508341935 c:\projetc\template\libs\curl\include\curl\curlrules.h
+
+1508341935 c:\projetc\template\libs\curl\include\curl\easy.h
+
+1508341935 c:\projetc\template\libs\curl\include\curl\multi.h
+	"curl.h"
+
+1508341936 c:\projetc\template\libs\curl\include\curl\typecheck-gcc.h
+
+1508341935 c:\projetc\template\libs\curl\include\\curl\curl.h
+	"curlver.h"
+	"curlbuild.h"
+	"curlrules.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"typecheck-gcc.h"
+
+1508341935 c:\projetc\template\libs\curl\include\\curl\curlver.h
+
+1508341935 c:\projetc\template\libs\curl\include\\curl\curlbuild.h
+	<sys/types.h>
+	<sys/socket.h>
+
+1508341935 c:\projetc\template\libs\curl\include\\curl\curlrules.h
+
+1508341935 c:\projetc\template\libs\curl\include\\curl\easy.h
+
+1508341935 c:\projetc\template\libs\curl\include\\curl\multi.h
+	"curl.h"
+
+1508341936 c:\projetc\template\libs\curl\include\\curl\typecheck-gcc.h
+
+1508346946 c:\projetc\template\libs\json-c\include\json-c\json.h
+	"bits.h"
+	"debug.h"
+	"linkhash.h"
+	"arraylist.h"
+	"json_util.h"
+	"json_object.h"
+	"json_tokener.h"
+	"json_object_iterator.h"
+	"json_c_version.h"
+
+1508346946 c:\projetc\template\libs\json-c\include\json-c\bits.h
+
+1508346946 c:\projetc\template\libs\json-c\include\json-c\debug.h
+	<stdlib.h>
+
+1508346947 c:\projetc\template\libs\json-c\include\json-c\linkhash.h
+	"json_object.h"
+
+1508346947 c:\projetc\template\libs\json-c\include\json-c\json_object.h
+	"json_inttypes.h"
+
+1508346946 c:\projetc\template\libs\json-c\include\json-c\json_inttypes.h
+	"json_config.h"
+	<inttypes.h>
+
+1508346946 c:\projetc\template\libs\json-c\include\json-c\json_config.h
+
+1508346946 c:\projetc\template\libs\json-c\include\json-c\arraylist.h
+
+1508346947 c:\projetc\template\libs\json-c\include\json-c\json_util.h
+	"json_object.h"
+
+1508346947 c:\projetc\template\libs\json-c\include\json-c\json_tokener.h
+	<stddef.h>
+	"json_object.h"
+
+1508346947 c:\projetc\template\libs\json-c\include\json-c\json_object_iterator.h
+	<stddef.h>
+
+1508346946 c:\projetc\template\libs\json-c\include\json-c\json_c_version.h
+
